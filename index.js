@@ -1,8 +1,23 @@
 #!/usr/bin/env node
-const clearConsole = require("clear-any-console");
-clearConsole();
+// const clearConsole = require("clear-any-console");
+const pkgJSON = require("./package.json");
+const welcome = require("cli-welcome");
 
-// console.clear();
+welcome({
+  title: pkgJSON.name,
+  tagLine: `Hi, nice to meet you!`,
+  description: pkgJSON.description,
+  version: pkgJSON.version,
+  bgColor: `#FADC00`,
+  color: `#000000`,
+  bold: true,
+  clear: true,
+});
+
+//clears the console
+// clearConsole();
+
+// console.clear(); //commented bcs this soln may not be feasilble for other OSs.
 
 console.log(`
 Vinay Kanth - Frontend Engineer at Askadmissions.ai
