@@ -1,6 +1,6 @@
 {
     "name": "vinaykanth",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "Get to know Vinay Kanth via `npx vinaykanth`.",
     "bin": {
         "vinaykanth": "index.js"
