@@ -11,7 +11,7 @@ welcome({
   bgColor: `#FADC00`,
   color: `#000000`,
   bold: true,
-  clear: true,
+  clear: true, // to clear console, otherwise false
 });
 
 //clears the console
